@@ -96,7 +96,7 @@
 
         <plugins>
             <!-- Step 1. - Download Swagger UI project from GitHub -->
-            <!--<plugin>
+            <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>wagon-maven-plugin</artifactId>
                 <version>1.0</version>
@@ -113,7 +113,7 @@
                         </configuration>
                     </execution>
                 </executions>
-            </plugin>-->
+            </plugin>
 
             <!-- Step 2. -  Decompress content and move it to target/swagger-ui folder -->
             <plugin>
