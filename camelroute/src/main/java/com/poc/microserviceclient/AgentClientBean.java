@@ -63,7 +63,7 @@ public class AgentClientBean {
 	  
 	public static void main(String[] args) throws JsonParseException, JsonMappingException, IOException {
 		AgentClientBean agentClientBean = new AgentClientBean();
-		//agentClientBean.getAgentDetails("3");
+		agentClientBean.getAgentDetails("3");
 		//System.out.println(agentClientBean.listAgents().toString());
 	}
 }
