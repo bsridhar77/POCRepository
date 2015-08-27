@@ -12,8 +12,8 @@ public class POCRouteBuilder extends RouteBuilder {
 
     @Override
     public void configure() throws Exception {
+    	
         restConfiguration().component("servlet").bindingMode(RestBindingMode.json)
-
             .dataFormatProperty("prettyPrint", "true")
             .contextPath("camelroute/rest").port(8080);
 
