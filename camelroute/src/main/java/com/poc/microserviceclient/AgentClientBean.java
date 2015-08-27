@@ -24,6 +24,7 @@ public class AgentClientBean {
 	public static String AGENT_URL = "http://localhost:9080/agent";
 
 	AgentClientBean() {
+		//For Test
 		agents.put("123", new Agent("1", "John Doe"));
 		agents.put("456", new Agent("2", "Donald Duck"));
 		agents.put("789", new Agent("3", "Slow Turtle"));

@@ -94,6 +94,7 @@
         <!-- we do not want version in the WAR name -->
         <finalName>${project.artifactId}</finalName>
 
+		<!-- Comment step 1 and run build if issues in directly connecting to github -->
         <plugins>
             <!-- Step 1. - Download Swagger UI project from GitHub -->
             <plugin>
