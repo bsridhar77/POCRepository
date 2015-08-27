@@ -7,9 +7,6 @@ import org.apache.camel.model.rest.RestBindingMode;
 
 import com.poc.model.Agent;
 
-/**
- * Define REST services using the Camel REST DSL
- */
 
 public class POCRouteBuilder extends RouteBuilder {
 
