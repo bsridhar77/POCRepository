@@ -6,7 +6,9 @@ To Build the project ( Builds a WAR )
 This project tries to download the swagger-ui jars used for documenting of REST Service.
 
 If any issues in connecting to github and downloading it during build , download manually from
-https://github.com/swagger-api/swagger-ui/tree/v2.0.24    and add to target folder and then build the project
+https://github.com/swagger-api/swagger-ui/tree/v2.0.24    and add to target folder and then build the project.
+
+Also, ensure you comment out the Step 1 in pom.xml to download the swagger-ui from github repo.
 
 I used one of the sample which was integrated with swagger-ui. It can be removed from pom.xml.
 
