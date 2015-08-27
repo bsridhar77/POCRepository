@@ -24,9 +24,14 @@ To Run the service (Camel Route is exposed as a Service)
 	
 	GET 	http://localhost:8080/camelroute/rest/agent/findAll
 	
-	Use Rest Client for POST Request,
+	Use Rest Client for POST Request, Input/Output both in JSON
 	POST	http://localhost:8080/camelroute/rest/agent
 	
+	Pass below sample input in JSON format for add/update agent using REST Client
+	{
+		"agentId" : "3",
+  		"agentName" : "Unknown Agent"
+	}
 	
 	2.mvn jetty:run
 	
