@@ -43,7 +43,8 @@ To Run the service (Camel Route is exposed as a Service)
 	
 	
 	
-The Camel route consumes the REST Service running on another port,
+Camel route consumes the REST Service running on another port, Refer , https://github.com/bsridhar77/services repo for that.
+
 
 http://localhost:9080/agent/1
 	
